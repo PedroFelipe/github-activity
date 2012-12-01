@@ -17,7 +17,7 @@ __Activity id__
 __Activity title__  
 `$xml->entry[$i]->title;`
   
-__Activity URL (account, repo, etc.)__  
+__Activity URL (account, repo etc.)__  
 `$xml->entry[$i]->link["href"];`
   
 __Activity date__  
