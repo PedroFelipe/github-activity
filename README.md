@@ -1,5 +1,6 @@
 github-activity
 ===============
+* * *
 
 Get your account's GitHub public activity.
 
@@ -8,28 +9,29 @@ http://www.pedrofelipe.com.br/github.php or http://www.pedrofelipe.com.br
 
 gettin' data
 ===============
+* * *
 
-Activity id
+__Activity id__  
 `$xml->entry[$i]->id;`
-
-Activity title
+  
+__Activity title__  
 `$xml->entry[$i]->title;`
-
-Activity URL (account, repo, etc.)
+  
+__Activity URL (account, repo, etc.)__  
 `$xml->entry[$i]->link["href"];`
-
-Activity date
-`$xml->entry[$i]->updated;`
+  
+__Activity date__  
+`$xml->entry[$i]->updated;`  
 `$xml->entry[$i]->published;`
-
-Activity author name
+  
+__Activity author name__  
 `$xml->entry[$i]->author->name;`
-
-Activity author e-mail
+  
+__Activity author e-mail__  
 `$xml->entry[$i]->author->email;`
-
-Activity author profile (url)
+  
+__Activity author profile (url)__  
 `$xml->entry[$i]->author->uri;`
-
-Last account activity date
+  
+__Last account activity date__  
 `$xml->updated;`
