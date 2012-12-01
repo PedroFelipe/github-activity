@@ -4,7 +4,7 @@ github-activity
 
 Get your account's GitHub public activity.
 
-As viewed in:
+As seen on:  
 http://www.pedrofelipe.com.br/github.php or http://www.pedrofelipe.com.br
 
 gettin' data
